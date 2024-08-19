@@ -1,0 +1,35 @@
+{
+  "name": "create-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsup --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.3.0",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "boxen": "5.1.2",
+    "chalk": "4.1.2",
+    "commander": "^12.1.0",
+    "cowrizz": "^1.0.4",
+    "got": "11.8.5",
+    "ora": "5",
+    "tar": "6.2.0"
+  }
+}
