@@ -24,12 +24,17 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
+    "@types/tar": "^6.1.13",
+    "@types/which-pm-runs": "^1.0.2",
     "boxen": "5.1.2",
     "chalk": "4.1.2",
     "commander": "^12.1.0",
     "cowrizz": "^1.0.4",
+    "execa": "5.1.1",
     "got": "11.8.5",
     "ora": "5",
-    "tar": "6.2.0"
+    "rimraf": "3.0.2",
+    "tar": "6.2.0",
+    "which-pm-runs": "^1.1.0"
   }
 }
